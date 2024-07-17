@@ -13,7 +13,7 @@ library.add(faHeadset, faTimes, faPaperPlane)
 const app = createApp(App)
 const pinia = createPinia()
 
-useKakao('7b150224685920869c0278144db4e10c', ['clusterer', 'services', 'drawing'])
+useKakao('-', ['clusterer', 'services', 'drawing'])
 
 pinia.use(piniaPluginPersistedstate)
 // app.use(createPinia())
